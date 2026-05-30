@@ -41,11 +41,9 @@ setup(
     package_dir = {"": "src"},
     scripts = ["scripts/msdft.py"],
     install_requires=[
-        'ase==3.23.0',
         'becke-multicenter-integration==0.0.2', # only for testing purposes
         'coverage==7.9.1', # only for testing purposes
         'jsonargparse[signatures]==4.32.1',
-        'lightning==2.4.0',
         'matplotlib==3.9.2',
         'numpy==2.1.1',
         'opt-einsum==3.4.0',
@@ -54,8 +52,6 @@ setup(
         'pyscf==2.9.0',
         'ruff==0.12.1', # only for testing purposes
         'scipy==1.14.1',
-        'seaborn==0.13.2',
-        'tensorboard==2.17.1',
         'torch==2.7.1'],
     include_package_data=True,
     zip_safe=False,
