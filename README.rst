@@ -1,9 +1,9 @@
 Multistate Density Functional Theory with the Local Density Approximation
 -------------------------------------------------------------------------
-The python package `mlmsdft` implements the local density matrix approximation (LDMA) of Ref [3]_ for calculating excited states variationally.
-Multistate density functional theory is introduced in Ref [1]_. The fundamental quantity in this theory is the matrix density *D*(r), which contains the state densities on the diagonal and the transition densities on the off-diagonal. In LDMA the local exchange-correlation functional is converted into an analytic matrix functional of *D*(r). [2]_.
+The python package `mlmsdft` implements the local density matrix approximation (LDMA) of Ref [3]_. for calculating excited states variationally.
+Multistate density functional theory is introduced in Ref [1]_. The fundamental quantity in this theory is the matrix density **D**(r), which contains the state densities on the diagonal and the transition densities on the off-diagonal. In LDMA the local exchange-correlation functional is converted into an analytic matrix functional of **D**(r). [2]_.
 
-The code for reproducing the figures and tables of Ref. [3]_ can be found in the subfolder `examples/`.
+The code for reproducing the figures and tables of Ref. [3]_. can be found in the subfolder `examples/`.
 
 
 Installation
@@ -31,7 +31,7 @@ To verify the proper functioning of the code a set of tests should be run with
 Getting Started
 ---------------
 
-Variationally optimize lowest few singlet and triplet states of H2 molecule for (2e,2o) active space:
+Variationally optimize the lowest few singlet and triplet states of H2 molecule for (2e,2o) active space:
 
 .. code-block:: python
 
@@ -94,3 +94,4 @@ References
    https://doi.org/10.1021/acs.jctc.4c00330
 .. [3] Alexander Humeniuk, Yangyi Lu, Jiali Gao "Covariant Local Matrix Density Approximation through Spectral Reconstruction in Multistate Density Functional Theory",
    submitted to JCTC (2026)
+   https://doi.org/TO-BE-ADDED
