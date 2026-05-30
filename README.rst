@@ -7,11 +7,11 @@ The code for reproducing the figures and tables of Ref. [1]_ can be found in the
 
 Installation
 ------------
-To install the pacakge in a separate virtual environment run
+To install the package in a separate virtual environment run
 
 .. code-block:: bash
 
-   $ python -m venv ~/msdft-venv
+   $ python3.11 -m venv ~/msdft-venv
    $ source ~/msdft-venv/bin/activate
 
 followed by
@@ -25,7 +25,7 @@ To verify the proper functioning of the code a set of tests should be run with
 .. code-block:: bash
 
    $ cd tests
-   $ python3.11 -m unittest
+   $ python -m unittest
 
 Getting Started
 ---------------
