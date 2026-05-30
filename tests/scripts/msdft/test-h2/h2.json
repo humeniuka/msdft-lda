@@ -1,0 +1,8 @@
+{
+    "basis": "6-31g",
+    "nelec": 2,
+    "norb": 2,
+    "xc_functional": "lda",
+    "spin_symmetry": false,
+    "spin_type": "spin_unpolarized"
+}

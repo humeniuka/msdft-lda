@@ -1,0 +1,9 @@
+{
+    "basis": "6-31g",
+    "nelec": 2,
+    "norb": 2,
+    "xc_functional": "lda",
+    "optimize_orbitals": false,
+    "spin_symmetry": true,
+    "spin_type": "spin_polarized"
+}

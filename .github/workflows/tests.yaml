@@ -1,0 +1,59 @@
+name: Unit tests for mlmsdft package
+
+on: [push]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12.5"]
+
+    steps:
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Checkout package
+        uses: actions/checkout@v4
+
+      - name: Access to other private repositories
+        run: |
+          git config --global url."https://${{ secrets.ACCESS_TOKEN }}@github".insteadOf https://github
+
+      - name: Setup conda test environment
+        uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-name: mlmsdft
+          environment-file: environment.yml
+          init-shell: >-
+            bash
+
+      - name: Install package
+        run: |
+          eval "$(micromamba shell hook --shell bash)"
+          micromamba activate mlmsdft
+          pip install -e .
+
+      - name: Static code checks
+        run: |
+          eval "$(micromamba shell hook --shell bash)"
+          micromamba activate mlmsdft
+          ruff check src/
+
+      - name: Unit tests and coverage
+        working-directory: tests
+        run: |
+          eval "$(micromamba shell hook --shell bash)"
+          micromamba activate mlmsdft
+          # python -m unittest
+          coverage run --source=../src -m unittest
+          coverage report -m
+
+      - name: Test msdft.py script
+        working-directory: tests/scripts/msdft
+        run: |
+          eval "$(micromamba shell hook --shell bash)"
+          micromamba activate mlmsdft
+          ./run_tests.sh

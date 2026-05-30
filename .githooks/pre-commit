@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "Calling pre-commit script: static code check and formatting with ruff"
+
+# Use ruff to statically check python code that is about to be committed.
+files=$(git diff --staged --name-only --diff-filter=d | grep ".py$")
+if [ "$files" != "" ]
+then
+    # Static code checks
+    ruff check $files
+    # Format code nicely
+    #ruff format --check $files
+    # Add nicely formatted files back.
+    #git add $files
+fi

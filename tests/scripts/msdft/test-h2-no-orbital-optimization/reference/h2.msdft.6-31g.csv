@@ -1,0 +1,4 @@
+,compound,basis,electrons,orbitals,method,spin symmetry,exchange,correlation,<S²>,energy (Hartree),vertical ΔE (eV)
+0,h2,6-31g,2,2,MSDFT(2e/2o),True,lda_x_dirac,lda_c_chachiyo,0.0,-1.0891720357877284,0.0
+1,h2,6-31g,2,2,MSDFT(2e/2o),True,lda_x_dirac,lda_c_chachiyo,0.0,-0.5237744902423302,15.385250866596358
+2,h2,6-31g,2,2,MSDFT(2e/2o),True,lda_x_dirac,lda_c_chachiyo,0.0,0.04125328606355924,30.760439799678128

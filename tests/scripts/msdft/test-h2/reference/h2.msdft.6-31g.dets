@@ -1,0 +1,26 @@
+== Molecular Geometry
+charge= 0 spin= 0
+H           0.00000000        0.00000000       -0.35000000
+H           0.00000000        0.00000000        0.35000000
+
+== ActiveSpace(active orbitals: 2, active electrons: 2, maximum excitation level: inf)/6-31g
+state= 0  spin <S²>= 0.0
+    -0.9990  2.
+    -0.0000  ab
+    -0.0000  ba
+    +0.0449  .2
+state= 1  spin <S²>= 2.0
+    -0.0000  2.
+    -0.7071  ab
+    +0.7071  ba
+    -0.0000  .2
+state= 2  spin <S²>= 0.0
+    +0.0000  2.
+    -0.7071  ab
+    -0.7071  ba
+    -0.0000  .2
+state= 3  spin <S²>= 0.0
+    +0.0449  2.
+    -0.0000  ab
+    -0.0000  ba
+    +0.9990  .2

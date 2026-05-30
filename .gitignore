@@ -1,0 +1,62 @@
+/build
+/dist
+**/*.egg-info
+# ignore architecture dependent files
+**/*.so
+**/*.o
+**/*.pyc
+__pycache__/
+.ipynb_checkpoints/
+*.pkl
+# ignore emacs backup files
+*~
+\#*\#
+
+# ignore LibreOffice backup files
+.~lock*
+
+# ignore pyscf temporary files
+tmp*
+
+# log-files from pytorch lightning
+**/lightning_logs/
+**/lightning_logs
+
+# old copies
+*.OLD
+
+# From latex
+notes/*.aux
+notes/*.bbl
+notes/*.bcf
+notes/*.run.xml
+notes/*.blg
+notes/*.log
+notes/*.out
+notes/*.pdf
+notes/acs-*.bib
+
+# ignore files in temporary workspace
+/scratch
+
+# from linting and coverage
+.coverage
+.ruff_cache/
+
+# cache from prefect workflows
+.prefect/
+
+# temporary files
+tmp/
+
+# BAGEL output
+casscf.log
+
+# SLURM log files
+*.err
+
+# NVIDIA GPU telemetry data
+dcgm-gpu-stats-*.out
+
+# Virtual environments
+*-venv/
