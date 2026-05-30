@@ -52,7 +52,8 @@ setup(
         'pyscf==2.9.0',
         'ruff==0.12.1', # only for testing purposes
         'scipy==1.14.1',
-        'torch==2.7.1'],
+        'torch==2.7.1',
+        'tqdm==4.66.5'],
     include_package_data=True,
     zip_safe=False,
 )

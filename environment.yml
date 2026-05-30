@@ -18,4 +18,5 @@ dependencies:
     - pyscf==2.9.0
     - ruff==0.12.1
     - torch==2.7.1
+    - tqdm==4.66.5
     - git+https://github.com/humeniuka/multistate_density_functionals
