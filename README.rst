@@ -25,7 +25,7 @@ To verify the proper functioning of the code a set of tests should be run with
 .. code-block:: bash
 
    $ cd tests
-   $ python -m unittest
+   $ python3.11 -m unittest
 
 Getting Started
 ---------------
