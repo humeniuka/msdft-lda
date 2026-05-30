@@ -1,9 +1,8 @@
 Multistate Density Functional Theory with the Local Density Approximation
 -------------------------------------------------------------------------
-The python package `mlmsdft` implements the local density matrix approximation (LDMA) of Ref [3]_. for calculating excited states variationally.
-Multistate density functional theory is introduced in Ref [1]_. The fundamental quantity in this theory is the matrix density **D**(r), which contains the state densities on the diagonal and the transition densities on the off-diagonal. In LDMA the local exchange-correlation functional is converted into an analytic matrix functional of **D**(r). [2]_.
+The python package ``mlmsdft`` implements the local density matrix approximation (LDMA) of Ref [1]_ for calculating excited states variationally. Rigorous multistate density functional theory is introduced in Ref [2]_. The fundamental quantity in this theory is the matrix density D(r), which contains the state densities on the diagonal and the transition densities on the off-diagonal. In LDMA the local exchange-correlation functional is converted into an analytic matrix functional of D(r). [3]_
 
-The code for reproducing the figures and tables of Ref. [3]_. can be found in the subfolder `examples/`.
+The code for reproducing the figures and tables of Ref. [1]_ can be found in the subfolder `èxamples/``.
 
 
 Installation
@@ -86,12 +85,12 @@ Variationally optimize the lowest few singlet and triplet states of H2 molecule 
 ----------
 References
 ----------
-.. [1] Yangyi Lu, Jiali Gao, "Multistate Density Functional Theory for Excited States",
-   J. Phys. Chem. Lett. 2022, 13, 7762-7769,
-   https://doi.org/10.1021/acs.jpclett.2c02088
-.. [2] Alexander Humeniuk, "Approximate Functionals for Multistate Density Functional Theory",
-   J. Chem. Theory. Comput. 2024, 20, 13, 5497-5509,
-   https://doi.org/10.1021/acs.jctc.4c00330
-.. [3] Alexander Humeniuk, Yangyi Lu, Jiali Gao "Covariant Local Matrix Density Approximation through Spectral Reconstruction in Multistate Density Functional Theory",
+.. [1] Alexander Humeniuk, Yangyi Lu, Jiali Gao "Covariant Local Matrix Density Approximation through Spectral Reconstruction in Multistate Density Functional Theory",
    submitted to JCTC (2026)
    https://doi.org/TO-BE-ADDED
+.. [2] Yangyi Lu, Jiali Gao, "Multistate Density Functional Theory for Excited States",
+   J. Phys. Chem. Lett. 2022, 13, 7762-7769,
+   https://doi.org/10.1021/acs.jpclett.2c02088
+.. [3] Alexander Humeniuk, "Approximate Functionals for Multistate Density Functional Theory",
+   J. Chem. Theory. Comput. 2024, 20, 13, 5497-5509,
+   https://doi.org/10.1021/acs.jctc.4c00330
