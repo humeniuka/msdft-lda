@@ -1,6 +1,6 @@
 Multistate Density Functional Theory with the Local Density Approximation
 -------------------------------------------------------------------------
-The python package ``mlmsdft`` implements the local density matrix approximation (LDMA) of Ref [1]_ for calculating excited states variationally. Rigorous multistate density functional theory is introduced in Ref [2]_. The fundamental quantity in this theory is the matrix density D(r), which contains the state densities on the diagonal and the transition densities on the off-diagonal. In LDMA the local exchange-correlation functional is converted into an analytic matrix functional of D(r). [3]_
+The python package ``mlmsdft`` implements the local matrix density approximation (LMDA) of Ref [1]_ for calculating excited states variationally. Rigorous multistate density functional theory is introduced in Ref [2]_. The fundamental quantity in this theory is the matrix density D(r), which contains the state densities on the diagonal and the transition densities on the off-diagonal. In LDMA the local exchange-correlation functional is converted into an analytic matrix functional of D(r). [3]_
 
 The code for reproducing the figures and tables of Ref. [1]_ can be found in the subfolder ``examples/``.
 
@@ -87,7 +87,7 @@ References
 ----------
 .. [1] Alexander Humeniuk, Yangyi Lu, Jiali Gao "Covariant Local Matrix Density Approximation through Spectral Reconstruction in Multistate Density Functional Theory",
    submitted to JCTC (2026)
-   https://doi.org/TO-BE-ADDED
+   https://doi.org/10.65215/LTSpreprints.2026.06.09.000269
 .. [2] Yangyi Lu, Jiali Gao, "Multistate Density Functional Theory for Excited States",
    J. Phys. Chem. Lett. 2022, 13, 7762-7769,
    https://doi.org/10.1021/acs.jpclett.2c02088
