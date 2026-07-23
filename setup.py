@@ -53,7 +53,10 @@ setup(
         'ruff==0.12.1', # only for testing purposes
         'scipy==1.14.1',
         'torch==2.7.1',
-        'tqdm==4.66.5'],
+        'tqdm==4.66.5',
+        # msdft package is only needed for computing the xc-hole
+        'msdft @ git+https://github.com/humeniuka/multistate_density_functionals.git@permanent'
+    ],
     include_package_data=True,
     zip_safe=False,
 )
