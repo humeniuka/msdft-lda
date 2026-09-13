@@ -86,11 +86,12 @@ Variationally optimize the lowest few singlet and triplet states of H2 molecule 
 References
 ----------
 .. [1] Alexander Humeniuk, Yangyi Lu, Jiali Gao "Covariant Local Matrix Density Approximation through Spectral Reconstruction in Multistate Density Functional Theory",
-   submitted to JCTC (2026)
-   https://doi.org/10.65215/LTSpreprints.2026.06.09.000269
+   J. Chem. Theory Comput. 2026,
+   https://doi.org/10.1021/acs.jctc.6c01081
+   (preprint before peer review available at https://doi.org/10.65215/LTSpreprints.2026.06.09.000269 )
 .. [2] Yangyi Lu, Jiali Gao, "Multistate Density Functional Theory for Excited States",
    J. Phys. Chem. Lett. 2022, 13, 7762-7769,
    https://doi.org/10.1021/acs.jpclett.2c02088
 .. [3] Alexander Humeniuk, "Approximate Functionals for Multistate Density Functional Theory",
-   J. Chem. Theory. Comput. 2024, 20, 13, 5497-5509,
+   J. Chem. Theory Comput. 2024, 20, 13, 5497-5509,
    https://doi.org/10.1021/acs.jctc.4c00330
